@@ -3,7 +3,7 @@
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Package\PackageInterface;
-use Prisma\LaravelThemeInstaller\ThemeInstaller;
+use Codions\LaravelThemeInstaller\ThemeInstaller;
 use PHPUnit\Framework\TestCase;
 
 class ThemeInstallerTest extends TestCase

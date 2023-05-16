@@ -1,6 +1,6 @@
 <?php
 
-namespace Prisma\LaravelThemeInstaller;
+namespace Codions\LaravelThemeInstaller;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;

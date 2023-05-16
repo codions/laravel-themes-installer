@@ -1,10 +1,10 @@
 {
-    "name": "prismalms/laravel-themes-installer",
+    "name": "codions/laravel-themes-installer",
     "type": "composer-plugin",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/prismalms/laravel-themes-installer/issues",
-        "source": "https://github.com/prismalms/laravel-themes-installer"
+        "issues": "https://github.com/codions/laravel-themes-installer/issues",
+        "source": "https://github.com/codions/laravel-themes-installer"
     },
     "authors": [
         {
@@ -14,14 +14,14 @@
     ],
     "autoload": {
         "psr-0": {
-            "Prisma\\LaravelThemeInstaller\\": "src/"
+            "Codions\\LaravelThemeInstaller\\": "src/"
         },
         "psr-4": {
-            "Prisma\\LaravelThemeInstaller\\": "src"
+            "Codions\\LaravelThemeInstaller\\": "src"
         }
     },
     "extra": {
-        "class": "Prisma\\LaravelThemeInstaller\\ThemeInstallerPlugin"
+        "class": "Codions\\LaravelThemeInstaller\\ThemeInstallerPlugin"
     },
     "require-dev": {
         "composer/composer": "^1.3|^2.2.12",
